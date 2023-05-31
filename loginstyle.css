@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: rgb(83, 80, 80);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.login {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    background-color: rgb(197, 153, 86);
+    gap: 1rem;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px 1px rgb(22, 21, 21);
+}
+
+.top-heading {
+    text-align: center;
+    color: rgb(197, 153, 86);
+    display: flex;
+    margin-bottom: 100px;
+}
+
+#kullaniciadi {
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: large;
+    box-shadow: 2px 2px 10px 1px rgb(22, 21, 21);
+}
+
+#loginbutton {
+    width: 70px;
+    height: 40px;
+    box-shadow: 2px 2px 10px 1px rgb(22, 21, 21);
+    background-color: cadetblue;
+    border-radius: 10px;
+    color: white;
+    font-size: large;
+
+}
